@@ -5,7 +5,7 @@ const quoteText = document.querySelector(".advice-text");
 const dice = document.querySelector(".dice");
 
 dice.addEventListener("click", function (e) {
-  e.preventDefault;
+  e.preventDefault();
   try {
     const data = async function () {
       const res = await fetch("https://api.adviceslip.com/advice");
@@ -16,6 +16,6 @@ dice.addEventListener("click", function (e) {
     };
     data();
   } catch (error) {
-    console.error(error);
+    console.error(error.message);
   }
 });

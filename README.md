@@ -47,6 +47,7 @@ Users should be able to:
 ### What I learned
 
 I got a better understanding of using the async/await method of calling API's.
+I learnt how to make a glow effect using CSS.
 
 ```js
 const proudOfThisFunc = () => {
